@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MeaningfulMotion</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="duration">Animation Duration: %1$dms</string>
+    <string name="tension_value">Tension: %1$f</string>
+
+    <string-array name="interpolator_array">
+        <item>Accelerate</item>
+        <item>Accelerate Decelerate</item>
+        <item>Anticipate</item>
+        <item>Anticipate Overshoot</item>
+        <item>Bounce</item>
+        <item>Decelerate</item>
+        <item>Fast out Linear in</item>
+        <item>Fast out Slow in</item>
+        <item>Linear</item>
+        <item>Overshoot</item>
+    </string-array>
+
+    <!--  view components names  -->
+    <string name="touch_log_view">touch_log_view</string>
+    <string name="touch_source_view">touch_source_view</string>
+    <string name="bezier_touch_source_view">bezier_touch_source_view</string>
+
+    <!--  menu items names  -->
+    <string name="action_touch_log">Touch log</string>
+    <string name="action_touch_slop">Touch Slop</string>
+    <string name="action_bezier">Bezier</string>
+    <string name="action_reorder">Reorder</string>
+    <string name="action_animated_bezier">Animated Bezier</string>
+    <string name="action_tension">Tension</string>
+    <string name="action_interpolated_tension">Interpolated Tension</string>
+    <string name="action_shuffle">Shuffle</string>
+
+
+</resources>

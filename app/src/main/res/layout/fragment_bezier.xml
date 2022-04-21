@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:padding="30dp"
+    android:clipToPadding="false"
+    tools:context=".activity.MainActivity"
+    >
+
+    <com.yaroslavm87.meaningfulmotion.commonViews.TouchLogView
+        android:id="@+id/bezier_touch_log_view"
+        android:tag="@string/touch_log_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:padding="6dp"/>
+
+    <com.yaroslavm87.meaningfulmotion.fragment.bezier.BezierTouchSourceView
+        android:id="@+id/bezier_touch_source_view"
+        android:tag="@string/bezier_touch_source_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/white_item_ripple"
+        android:clickable="true"
+        android:elevation="@dimen/elevation_small"
+        android:outlineProvider="bounds"/>
+
+</FrameLayout>

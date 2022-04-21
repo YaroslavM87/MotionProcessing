@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:padding="30dp"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <!-- Greedy height -->
+    <com.yaroslavm87.meaningfulmotion.fragment.interpolatedTension.InterpolatedTensionTouchSourceView
+        android:id="@+id/interpolated_tension_touch_source_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/white_item_ripple"
+        android:clickable="true"
+        android:elevation="@dimen/elevation_small"
+        android:outlineProvider="bounds"/>
+
+    <TextView
+        android:id="@+id/interpolated_tension_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="@string/tension_value"/>
+
+    <SeekBar
+        android:id="@+id/interpolated_tension_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+
+    <io.apptik.widget.MultiSlider
+        android:id="@+id/interpolated_tension_multi_slider"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        app:rangeColor="@color/ghost"
+        app:thumbColor="@color/colorAccent"
+        app:range1Color="@color/colorAccent"
+        app:range2Color="@color/colorAccent"/>
+
+</LinearLayout>

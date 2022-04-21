@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_touch_log"
+        android:tag="action_touch_log"
+        android:title="@string/action_touch_log"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_touch_slop"
+        android:tag="action_touch_slop"
+        android:title="@string/action_touch_slop"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_bezier"
+        android:tag="action_bezier"
+        android:title="@string/action_bezier"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_reorder"
+        android:tag="action_reorder"
+        android:title="@string/action_reorder"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_animated_bezier"
+        android:tag="action_animated_bezier"
+        android:title="@string/action_animated_bezier"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_tension"
+        android:tag="action_tension"
+        android:title="@string/action_tension"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_interpolated_tension"
+        android:tag="action_interpolated_tension"
+        android:title="@string/action_interpolated_tension"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:tag="action_interpolated_tension"
+        android:title="@string/action_shuffle"
+        app:showAsAction="never"/>
+</menu>
